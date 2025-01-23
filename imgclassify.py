@@ -4,10 +4,10 @@ from keras.models import load_model
 from PIL import Image, ImageOps
 
 # Load the fixed model
-model = load_model(r"H:\EdgeMatrix\TeachableMachineprojects\img classification\fixed_keras_model.h5", compile=False)
+model = load_model("fixed_keras_model.h5", compile=False)
 
 # Load the labels
-class_names = open(r"H:\EdgeMatrix\TeachableMachineprojects\img classification\labels.txt", "r").readlines()
+class_names = open("labels.txt", "r").readlines()
 
 # Function to preprocess the image
 def preprocess_frame(frame):
