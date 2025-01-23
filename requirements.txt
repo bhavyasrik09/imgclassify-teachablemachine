@@ -1,5 +1,5 @@
-opencv-python-headless
-opencv-python==4.5.1.48  # (Ensure compatibility if needed)
+opencv-python-headless==4.5.1.48
+opencv-python==4.5.1.48
 tensorflow>=2.0
 numpy
 Pillow
