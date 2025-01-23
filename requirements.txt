@@ -1,5 +1,3 @@
 streamlit
 opencv-python-headless
 numpy
-tensorflow-cpu==2.12.0  # Use CPU version if GPU support is not needed
-pillow
