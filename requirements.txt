@@ -3,3 +3,4 @@ opencv-python==4.5.1.48  # (Ensure compatibility if needed)
 tensorflow>=2.0
 numpy
 Pillow
+setuptools
