@@ -1,3 +1,4 @@
-streamlit
-opencv-python-headless
+tensorflow>=2.0
+opencv-python
 numpy
+Pillow
